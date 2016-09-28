@@ -1,0 +1,16 @@
+[user]
+	email = raymond.kristiansen@it.uib.no
+	name = Raymond Kristiansen
+[color]
+	ui = auto
+[core]
+	pager = less -r
+	editor = "vim"
+[alias]
+        co = checkout
+	lg = log --graph
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit
+        lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+        contrib = shortlog -s -n
+[push]
+	default = matching

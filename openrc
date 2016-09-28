@@ -1,0 +1,10 @@
+export OS_USERNAME=<email>
+export OS_TENANT_NAME=<email>
+export OS_PASSWORD=<password>
+export OS_AUTH_URL=https://dashboard.local.iaas.intern:5000/v3
+export OS_IDENTITY_API_VERSION=3
+export OS_USER_DOMAIN_NAME=dataporten
+export OS_PROJECT_DOMAIN_NAME=dataporten
+#export OS_CACERT=/opt/repo/secrets/nodes/local1-compute-01/etc/pki/tls/certs/cachain.pem
+export OS_NO_CACHE=1
+
