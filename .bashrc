@@ -11,3 +11,7 @@ fi
 # User specific aliases and functions
 alias ta='tmux attach -d -t'
 alias tl='tmux list-session'
+
+if [ -f ~/bin/ssh-find-agent.sh ]; then
+  . ~/bin/ssh-find-agent.sh
+fi
