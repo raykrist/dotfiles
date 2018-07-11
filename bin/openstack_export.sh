@@ -13,3 +13,7 @@ openrc_export() {
   export OS_REGION_NAME=$1
   export OS_CLOUD=$cloud
 }
+
+openrc_view() {
+  env | grep OS_
+}
