@@ -1,0 +1,9 @@
+public-clouds:
+  uh-iaas:
+    auth:
+      auth_url:             'https://api.uh-iaas.no:5000/v3'
+      project_domain_name:  'dataporten'
+      user_domain_name:     'dataporten'
+    auth_type:              'password'
+    interface:              'public'
+    identity_api_version:   3
