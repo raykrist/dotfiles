@@ -15,3 +15,6 @@ alias tl='tmux list-session'
 if [ -f ~/bin/ssh-find-agent.sh ]; then
   . ~/bin/ssh-find-agent.sh
 fi
+if [ -f ~/bin/openstack_export.sh ]; then
+  . ~/bin/openstack_export.sh
+fi
