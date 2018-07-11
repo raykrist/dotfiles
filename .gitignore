@@ -3,5 +3,7 @@
 .ssh/
 .viminfo
 .bash_history
-ansible
-secrets
+ansible*
+secrets*
+.ansible*
+.novaclient
