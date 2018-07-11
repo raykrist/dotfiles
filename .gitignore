@@ -7,3 +7,4 @@ ansible*
 secrets*
 .ansible*
 .novaclient
+.config/openstack/clouds.yaml
