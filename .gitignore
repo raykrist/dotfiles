@@ -8,3 +8,5 @@ secrets*
 .ansible*
 .novaclient
 .config/openstack/clouds.yaml
+dev/*
+.terraform.d/
