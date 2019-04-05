@@ -7,7 +7,6 @@ public-clouds:
     auth_type:              'password'
     interface:              'public'
     identity_api_version:   3
-    region_name:            bgo,osl
   test01:
     auth:
       auth_url:             'https://api.test.iaas.uib.no:5000/v3'
@@ -17,3 +16,13 @@ public-clouds:
     interface:              'public'
     identity_api_version:   3
     region_name:            'test01'
+  test02:
+    auth:
+      auth_url:             'https://api.test.iaas.uio.no:5000/v3'
+      project_domain_name:  'dataporten'
+      user_domain_name:     'dataporten'
+    auth_type:              'password'
+    interface:              'public'
+    identity_api_version:   3
+    region_name:            'test02'
+
