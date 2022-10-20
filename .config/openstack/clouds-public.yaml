@@ -1,7 +1,7 @@
 public-clouds:
-  uh-iaas:
+  nrec:
     auth:
-      auth_url:             'https://api.uh-iaas.no:5000/v3'
+      auth_url:             'https://api.nrec.no:5000/v3'
       project_domain_name:  'dataporten'
       user_domain_name:     'dataporten'
     auth_type:              'password'
