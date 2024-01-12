@@ -14,3 +14,5 @@
         contrib = shortlog -s -n
 [push]
 	default = matching
+[init]
+	defaultBranch = master
