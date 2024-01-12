@@ -10,3 +10,4 @@ secrets*
 .config/openstack/clouds.yaml
 dev/*
 .terraform.d/
+.google_authenticator
