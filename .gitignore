@@ -11,3 +11,4 @@ secrets*
 dev/*
 .terraform.d/
 .google_authenticator
+.lesshst
