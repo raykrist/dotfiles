@@ -1,5 +1,5 @@
 [user]
-	email = raymond.kristiansen@it.uib.no
+	email = raymond.kristiansen@uib.no
 	name = Raymond Kristiansen
 [color]
 	ui = auto
@@ -8,10 +8,9 @@
 	editor = "vim"
 [alias]
         co = checkout
-	lg = log --graph
+	dc = diff --cached
 	lol = log --graph --decorate --pretty=oneline --abbrev-commit
         lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
-        contrib = shortlog -s -n
 [push]
 	default = matching
 [init]
