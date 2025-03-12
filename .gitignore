@@ -6,9 +6,12 @@
 ansible*
 secrets*
 .ansible*
+.cache
 .novaclient
 .config/openstack/clouds.yaml
 dev/*
 .terraform.d/
 .google_authenticator
 .lesshst
+.wget-hsts
+gitolite-admin
